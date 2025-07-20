@@ -32,7 +32,13 @@ h2 {
     background-color: #dbdcde; /* light-grey */
 }
 
+#portfolio .card-title {
+    color: #1f7798; /* mid blue */
+    font-size: 1.2rem;
+}
+
 /* contact section */
+
 #contact {
     background-color: white;
 }
@@ -45,3 +51,4 @@ h2 {
     background-position: 50% 70%;
     padding: 5% 7%;
 }
+
