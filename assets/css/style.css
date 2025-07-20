@@ -41,6 +41,10 @@ h2 {
     background-color: #1f7798;
 }
 
+#portfolio .card-text {
+    min-height: 120px;
+}
+
 /* contact section */
 
 #contact {
@@ -56,3 +60,12 @@ h2 {
     padding: 5% 7%;
 }
 
+/* media queries */
+
+/* Use bootstrap breakpoint for XL screens */
+@media  and (min-width: 1200px;) {
+    /* Fixes all portfolio cards being to tall on XL screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
