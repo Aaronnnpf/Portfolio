@@ -20,6 +20,11 @@ h2 {
     color: #184f63; /* dark-blue */
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* about section */
 
 #about {
@@ -63,7 +68,7 @@ h2 {
 /* media queries */
 
 /* Use bootstrap breakpoint for XL screens */
-@media  and (min-width: 1200px;) {
+@media screen and (min-width: 1200px) {
     /* Fixes all portfolio cards being to tall on XL screens */
     #portfolio .card-text {
         min-height: auto;
